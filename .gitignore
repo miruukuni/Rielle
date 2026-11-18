@@ -1,0 +1,5 @@
+__pycache__/
+sessions/
+.runtime/
+Design/model_3d/backup
+Design/other_files_gitignore

@@ -1,0 +1,41 @@
+{
+  "model": "gemma3:12b",
+  "procedure": "Explicitly unloaded model, waited for /api/ps to be empty, then sent one chat request. OS file cache and CUDA caches may remain warm.",
+  "reply": "Hello. It's a nice thing to say.",
+  "metrics": {
+    "ttft_seconds": 5.516268699982902,
+    "wall_seconds": 5.6627993999863975,
+    "load_seconds": 5.139376,
+    "prompt_tokens": 909,
+    "generated_tokens": 12,
+    "tokens_per_second": 81.90567196778377,
+    "done_reason": "stop",
+    "thinking_characters": 0,
+    "evicted_exchanges": 0
+  },
+  "running_models": {
+    "models": [
+      {
+        "name": "gemma3:12b",
+        "model": "gemma3:12b",
+        "size": 8365004553,
+        "digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma3",
+          "families": [
+            "gemma3",
+            "clip"
+          ],
+          "parameter_size": "11.8B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-11-17T20:51:02.0051757-08:00",
+        "size_vram": 8365004553,
+        "context_length": 8192,
+        "runner": "llamacpp"
+      }
+    ]
+  }
+}

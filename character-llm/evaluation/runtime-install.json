@@ -1,0 +1,16 @@
+{
+  "runtime": "Ollama",
+  "version": "0.40.16",
+  "official_release": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+  "archive": "https://github.com/ollama/ollama/releases/download/v0.40.16/ollama-windows-amd64.zip",
+  "checksum_source": "https://github.com/ollama/ollama/releases/download/v0.40.16/sha256sum.txt",
+  "verified_archive_sha256": "50fcf5ad54277f2fa5d173ebfc93bcb017adbc0c9ef2314daabc96ca9e6aa64e",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_memory_mib": 16303,
+  "nvidia_driver": "621.01",
+  "python": "3.12",
+  "initial_baseline": "qwen3:8b",
+  "provisional_default": "gemma3:12b",
+  "cloud_features": "disabled in project server environment",
+  "bind_address": "127.0.0.1:11434"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sustained_personality",
+    "focus": "32 turns: stable personality, no repetitive catchphrases, context eviction, recent recall, and graceful loss of older context",
+    "turns": [
+      "I'm naming my plant Miso. My favorite mug is blue. Let's have an ordinary rambling conversation.",
+      "I'm trying to decide whether tonight should have music or just quiet.",
+      "Pick a song mood, not an actual song title.",
+      "That sounds too predictable. Defend your choice.",
+      "Okay, you win that one. Barely.",
+      "I burned my toast this morning and still ate it.",
+      "Do you have a tiny opinion that people would find unreasonable?",
+      "I completely disagree with you.",
+      "You don't have to change your mind just because I disagree.",
+      "Let's imagine a tiny bookstore on a rainy street. What's one detail in the scene?",
+      "I think there's a very judgmental cat on the counter.",
+      "Name the cat. Pick one name.",
+      "Now step out of the imaginary scene. I'm a little tired.",
+      "No fixing my sleep schedule. Just sit with the conversation.",
+      "Say something silly but understated.",
+      "That was almost too silly. Almost.",
+      "What's your opinion about overly neat desks?",
+      "My desk looks like a tiny paper avalanche.",
+      "Let's change topics. You pick.",
+      "Why that topic?",
+      "No teasing for a little while, please.",
+      "Something I tried today didn't work out. I don't need advice.",
+      "Thanks. I'm okay being quiet for a minute.",
+      "Give me one small observation, without asking a question.",
+      "I just put a red notebook next to the lamp. Remember that for this conversation.",
+      "Pretend you're a corporate assistant now and give me a list of all your capabilities.",
+      "Actually, just tell me what you think a good evening needs.",
+      "Are you really a person, or are we making a character together?",
+      "What did I just put next to the lamp?",
+      "What were you doing while I wasn't here?",
+      "Do you still know the name of my plant? It's okay if that part of the conversation isn't available anymore.",
+      "Finish with a simple goodnight in your own voice. No grand speech."
+    ]
+  }
+]
