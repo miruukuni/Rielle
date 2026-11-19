@@ -1,0 +1,24 @@
+FROM hf.co/TheDrummer/Rocinante-X-12B-v1-GGUF:Q4_K_M
+TEMPLATE """{{- $system := .System -}}
+{{- $lastUser := -1 -}}
+{{- range $index, $message := .Messages -}}
+  {{- if eq $message.Role "system" -}}
+    {{- $system = $message.Content -}}
+  {{- else if eq $message.Role "user" -}}
+    {{- $lastUser = $index -}}
+  {{- end -}}
+{{- end -}}
+{{- range $index, $message := .Messages -}}
+  {{- if eq $message.Role "user" -}}
+    {{- print "[INST]" -}}
+    {{- if and (eq $index $lastUser) $system -}}
+      {{- printf "%s\n\n" $system -}}
+    {{- end -}}
+    {{- printf "%s[/INST]" $message.Content -}}
+  {{- else if and (eq $message.Role "assistant") $message.Content -}}
+    {{- print $message.Content "</s>" -}}
+  {{- end -}}
+{{- end -}}"""
+
+PARAMETER stop "<|im_end|>"
+PARAMETER stop "<|im_start|>"

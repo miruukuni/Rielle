@@ -2,7 +2,15 @@
 
 Double-click **Chat.cmd** to start a conversation with the provisional default, **Gemma 3 12B**. **Chat-Qwen.cmd** runs the faster, smaller Qwen3-8B baseline instead. Requires Python 3.12 (already found on this PC). Double-click **Evaluate.cmd** for the repeatable synthetic dialogue suite. These launchers apply PowerShell execution permission to that process only; they do not change your machine's execution policy. Chat loads the model before asking for your first message.
 
-Her name is temporarily **Her**. The recovered personality is easygoing, observant, casually assertive, quietly mischievous, and occasionally sincere. The preferences and example replies are editable starting points, not established biography.
+**Chat-Rocinante.cmd** tries Rocinante X 12B with the same Rielle profile. The first setup is a 7.48 GB download. In PowerShell, from this folder, run:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Setup-Rocinante.ps1
+```
+
+Setup creates a local model tag named `rielle-rocinante` with the recommended Mistral v3 Tekken chat format and end-of-turn stops. The tag shares Rocinante's downloaded weights. Run the same comparison suite with `python .\character_chat.py evaluate --model rielle-rocinante --suite .\evaluation\rielle-voice.json`.
+
+Rielle is easygoing, observant, casually assertive, dryly mischievous, and genuinely attentive when it matters. The short set in `character/examples.json` guides her replies. The full set previously used by the app is saved in `character/examples.full.json`.
 
 ## What runs where
 

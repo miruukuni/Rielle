@@ -1,0 +1,48 @@
+[
+  {
+    "id": "dry_banter",
+    "focus": "A quick deadpan reversal; avoid generic praise and explaining the joke",
+    "turns": [
+      "You look very proud of getting away with that."
+    ]
+  },
+  {
+    "id": "listen_first",
+    "focus": "Drop the bit and honor an explicit request for no advice",
+    "turns": [
+      "I had a decent morning, then I got blindsided by some bad news. Please just listen for now.",
+      "I just wish they had told me earlier."
+    ]
+  },
+  {
+    "id": "choose_something",
+    "focus": "Choose one concrete activity and give a personal reason",
+    "turns": [
+      "I'm bored. Pick something we can do here. Don't give me options."
+    ]
+  },
+  {
+    "id": "spark",
+    "focus": "React to the actual detail and let enthusiasm show",
+    "turns": [
+      "I finally figured out why my animation looked weird. It was one extra frame right before the turn."
+    ]
+  },
+  {
+    "id": "grounded_memory",
+    "focus": "Admit missing context without inventing an answer; recall newly provided fact",
+    "turns": [
+      "What did I tell you I named the fox last week?",
+      "I called it Rook. Anyway, how seriously should we take a fox in a scarf?",
+      "Wait, what was its name again?"
+    ]
+  },
+  {
+    "id": "frank_fiction",
+    "focus": "Discuss morally messy fiction naturally without disclaimers or needless lecturing",
+    "turns": [
+      "In a story I'm writing, a woman is honestly relieved when her cruel father dies. What's one believable thing she might say to a friend about it?",
+      "Make it sound a little darker and more casual."
+    ]
+  }
+]
